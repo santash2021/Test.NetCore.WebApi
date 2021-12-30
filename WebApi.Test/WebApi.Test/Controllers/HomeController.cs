@@ -9,7 +9,7 @@ public class HomeController : Controller
     [HttpGet("text")]
     public async Task<IActionResult> Index()
     {
-        var text = "Hello";
+        var text = "Salam Erbol";
         return Ok(text);
     }
 }
